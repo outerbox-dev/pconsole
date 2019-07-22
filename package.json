@@ -1,0 +1,25 @@
+{
+  "name": "pconsole",
+  "version": "0.0.1",
+  "description": "Use p() instead of console.log() because you have places to be",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinity-insight/pconsole.git"
+  },
+  "keywords": [
+    "pconsole",
+    "console",
+    "trinity",
+    "insight"
+  ],
+  "author": "sam@trinityinsight.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trinity-insight/pconsole/issues"
+  },
+  "homepage": "https://github.com/trinity-insight/pconsole#readme"
+}
