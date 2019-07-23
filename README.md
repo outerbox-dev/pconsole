@@ -1,6 +1,16 @@
 # pconsole
 Use p() instead of console.log() because you have places to be
 
+## Installation
+npm:
+```bash
+npm install --save pconsole
+```
+yarn:
+```bash
+yarn add pconsole
+```
+
 ## Usage
 
 Simple syntax:
