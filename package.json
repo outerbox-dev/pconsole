@@ -1,6 +1,6 @@
 {
   "name": "pconsole",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use p() instead of console.log() because you have places to be",
   "main": "main.js",
   "scripts": {

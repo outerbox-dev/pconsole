@@ -2,17 +2,21 @@
 Use p() instead of console.log() because you have places to be
 
 ## Usage
+
+Simple syntax:
 ```js
-const p = require('pconsole')
+const PConsole = require('pconsole')
+const p = new PConsole('My Prefix |').getLogger()
 
-p('Hello')
-// Hello
-
-p.setPrefix('Prefix 1')
 p('Message')
-// Prefix 1 Message
+```
 
-p.setPrefix('Prefix 2')
-p('Message')
-// Prefix 2 Message
+Verbose usage:
+```js
+const PConsole = require('pconsole')
+const pconsole = new PConsole('My Prefix |')
+
+pconsole.log('message')
+pconsole.setPrefix('New Prefix |')
+pconsole.log('message')
 ```
